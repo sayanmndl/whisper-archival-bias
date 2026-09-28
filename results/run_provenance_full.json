@@ -1,0 +1,43 @@
+{
+  "whisper_model": "large-v3",
+  "whisper_device": "cuda",
+  "whisper_compute_type": "float16",
+  "beam_size": 5,
+  "n_max_per_lang": 600,
+  "max_utt_seconds": 35.0,
+  "bootstrap_B": 1000,
+  "rng_seed": 13,
+  "languages": [
+    {
+      "fleurs_config": "en_us",
+      "whisper_lang": "en",
+      "display": "English (US)"
+    },
+    {
+      "fleurs_config": "hi_in",
+      "whisper_lang": "hi",
+      "display": "Hindi"
+    },
+    {
+      "fleurs_config": "bn_in",
+      "whisper_lang": "bn",
+      "display": "Bengali"
+    },
+    {
+      "fleurs_config": "ta_in",
+      "whisper_lang": "ta",
+      "display": "Tamil"
+    },
+    {
+      "fleurs_config": "ur_pk",
+      "whisper_lang": "ur",
+      "display": "Urdu"
+    }
+  ],
+  "run_unix_ts": 1779918453,
+  "normalisers": {
+    "ours": "NFC + lowercase + punct-strip + ws-collapse",
+    "whisper": "EnglishTextNormalizer (en); BasicTextNormalizer (all non-en), per Radford et al. 2023 Appendix D"
+  },
+  "utterance_manifest": "results/corpus_manifest_full.csv"
+}

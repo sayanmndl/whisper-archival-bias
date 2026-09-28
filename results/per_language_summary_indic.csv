@@ -1,0 +1,4 @@
+fleurs_config,model,model_repo,n_utterances,mean_wer_ours,ci95_lo_ours,ci95_hi_ours,mean_wer_whisper,ci95_lo_whisper,ci95_hi_whisper,canonical_wer_whisper_matched,wer_reduction_pct
+hi_in,indic_whisper_large_v2,vasista22/whisper-hindi-large-v2,265,0.1268,0.1123,0.1438,0.0701,0.0588,0.0839,0.1643,57.3
+bn_in,indic_whisper_large_v2,anuragshas/whisper-large-v2-bn,319,0.3371,0.3177,0.3556,0.2131,0.1965,0.2301,0.4662,54.3
+ta_in,indic_whisper_large_v2,vasista22/whisper-tamil-large-v2,334,0.1971,0.181,0.2127,0.0674,0.0589,0.0763,0.2065,67.4

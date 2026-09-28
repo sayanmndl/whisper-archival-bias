@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or the reviewer checklist, please cite the paper below."
+title: "whisper-archival-bias"
+type: software
+license: MIT
+repository-code: "https://github.com/sayanmndl/whisper-archival-bias"
+authors:
+  - family-names: Mandal
+    given-names: Sayan
+  - family-names: Adhikari
+    given-names: Jayosree
+preferred-citation:
+  type: conference-paper
+  title: "What the Machine Cannot Hear: Evaluating Whisper on South Asian Languages for Diasporic Oral-History Archives"
+  authors:
+    - family-names: Mandal
+      given-names: Sayan
+    - family-names: Adhikari
+      given-names: Jayosree
+  collection-title: "Proceedings of the 2026 IEEE International Conference on Machine Learning and Applications (ICMLA)"
+  conference:
+    name: "2026 IEEE International Conference on Machine Learning and Applications (ICMLA)"
+  year: 2026

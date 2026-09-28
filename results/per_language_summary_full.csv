@@ -1,0 +1,6 @@
+fleurs_config,display,region,n_utterances,total_audio_s,mean_wer_ours,wer_ours_ci95_lo,wer_ours_ci95_hi,mean_wer_whisper,wer_whisper_ci95_lo,wer_whisper_ci95_hi,mean_lid_prob
+en_us,English (US),en,600,5913.9,0.0493,0.0443,0.0545,0.042,0.0371,0.047,1.0
+hi_in,Hindi,south_asia,418,4832.2,0.2748,0.2618,0.2889,0.1612,0.1511,0.1728,1.0
+bn_in,Bengali,south_asia,600,8089.2,0.7485,0.7356,0.7609,0.4635,0.4524,0.475,1.0
+ta_in,Tamil,south_asia,584,7347.1,0.508,0.488,0.5294,0.2104,0.1959,0.226,1.0
+ur_pk,Urdu,south_asia,299,2931.9,0.2237,0.2109,0.2376,0.2151,0.2021,0.2287,1.0

@@ -1,0 +1,13 @@
+{
+  "models": {
+    "hi": "vasista22/whisper-hindi-large-v2",
+    "bn": "anuragshas/whisper-large-v2-bn",
+    "ta": "vasista22/whisper-tamil-large-v2"
+  },
+  "device": "cuda",
+  "dtype": "float16",
+  "batch_size": 4,
+  "num_beams": 5,
+  "urdu_note": "No vasista22 large-v2 Urdu fine-tune available; omitted.",
+  "run_unix_ts": 1779929193
+}

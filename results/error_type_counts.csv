@@ -1,0 +1,30 @@
+display,error_type,count,total_errors,share_within_language
+Bengali,char_substitution,1996,3432,0.5816
+Bengali,hallucinated_insertion,554,3432,0.1614
+Bengali,matra_or_word_form_error,509,3432,0.1483
+Bengali,dropped_non_english_token,353,3432,0.1029
+Bengali,script_to_anglicisation,13,3432,0.0038
+Bengali,deletion,7,3432,0.002
+English (US),char_substitution,347,566,0.6131
+English (US),deletion,82,566,0.1449
+English (US),hallucinated_insertion,63,566,0.1113
+English (US),matra_or_word_form_error,58,566,0.1025
+English (US),script_to_anglicisation,16,566,0.0283
+Hindi,char_substitution,1045,2095,0.4988
+Hindi,matra_or_word_form_error,708,2095,0.3379
+Hindi,hallucinated_insertion,225,2095,0.1074
+Hindi,dropped_non_english_token,68,2095,0.0325
+Hindi,script_to_anglicisation,43,2095,0.0205
+Hindi,deletion,6,2095,0.0029
+Tamil,char_substitution,1625,2787,0.5831
+Tamil,matra_or_word_form_error,492,2787,0.1765
+Tamil,hallucinated_insertion,349,2787,0.1252
+Tamil,dropped_non_english_token,259,2787,0.0929
+Tamil,script_to_anglicisation,45,2787,0.0161
+Tamil,deletion,17,2787,0.0061
+Urdu,char_substitution,980,1490,0.6577
+Urdu,hallucinated_insertion,207,1490,0.1389
+Urdu,matra_or_word_form_error,184,1490,0.1235
+Urdu,dropped_non_english_token,113,1490,0.0758
+Urdu,script_to_anglicisation,5,1490,0.0034
+Urdu,deletion,1,1490,0.0007

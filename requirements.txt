@@ -1,0 +1,14 @@
+# Pipeline dependencies (versions pinned to the values used in the paper).
+faster-whisper==1.2.1
+transformers==5.9.0
+accelerate
+torch
+datasets==4.8.5
+soundfile
+jiwer==4.0.0
+whisper-normalizer==0.1.12
+pandas
+numpy
+scipy
+matplotlib
+yt-dlp

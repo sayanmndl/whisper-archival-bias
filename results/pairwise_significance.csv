@@ -1,0 +1,5 @@
+comparison,mean_diff,diff_ci95_lo,diff_ci95_hi,p_two_sided,q_bh
+hi_in vs en_us,0.1192,0.1076,0.131,0.001,0.001
+bn_in vs en_us,0.4216,0.4098,0.4335,0.001,0.001
+ta_in vs en_us,0.1684,0.1537,0.1864,0.001,0.001
+ur_pk vs en_us,0.1731,0.159,0.1875,0.001,0.001
