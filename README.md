@@ -6,6 +6,10 @@ by Sayan Mandal and Jayosree Adhikari, accepted at the 2026 IEEE International C
 
 The paper evaluates OpenAI's Whisper on four South Asian languages (Hindi, Bengali, Tamil, Urdu) against an American-English baseline, on the openly licensed FLEURS speech corpus. It tests whether publicly available Indic-tuned Whisper-large-v2 fine-tunes close the per-language gap, extracts a deterministic word-level error typology, and anchors the FLEURS-derived numbers to a recent anecdotal Bengali recording of a Partition-era memory, shared with the authors under informed consent.
 
+## Talk
+
+The slides presented at ICMLA 2026 are in [`talk/whisper_archival_bias_talk.pdf`](talk/whisper_archival_bias_talk.pdf) (20 pages: 13 talk slides followed by backup slides on the protocol, the normaliser, worked error examples, limitations, references, and the Whisper architecture).
+
 ## Headline findings
 
 | | English | Hindi | Bengali | Tamil | Urdu |
@@ -41,6 +45,8 @@ whisper-archival-bias/
 ├── references.bib
 ├── docs/
 │   └── REVIEWER_CHECKLIST.md         Full reviewer checklist per error mechanism
+├── talk/
+│   └── whisper_archival_bias_talk.pdf    Slides presented at ICMLA 2026 (with backup slides)
 ├── experiments/
 │   ├── 03_run_full_whisper.py        Canonical Whisper-large-v3 evaluation
 │   ├── 04_run_indic_comparator.py    Region-tuned Whisper-large-v2 comparator
@@ -63,7 +69,7 @@ whisper-archival-bias/
     └── comparator_provenance.json        Indic-comparator configuration
 ```
 
-The paper PDF and LaTeX source are distributed separately. This repository is the replication code and summary results only.
+The paper PDF and LaTeX source are distributed separately. This repository is the replication code, summary results, and the talk slides.
 
 `06_make_figures_full.py` also writes the LaTeX table fragments used by the paper into `figures/*.tex`; these are regenerated on each run and not tracked.
 
